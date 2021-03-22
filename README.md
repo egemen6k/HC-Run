@@ -6,5 +6,6 @@
 +Forward movement
 +Road tile
 ---First commit
-
++Ragdoll integrated
+** Character vibrating
 
