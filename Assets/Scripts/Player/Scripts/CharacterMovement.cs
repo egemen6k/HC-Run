@@ -14,7 +14,8 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField]
     private int _lane = 1;
-    private float _laneDistance = 2.5f;
+    [SerializeField]
+    private float _laneDistance = 3.5f;
 
     void Start()
     {
