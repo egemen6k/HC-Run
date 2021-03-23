@@ -42,7 +42,7 @@ public class CharacterMovement : MonoBehaviour
     {
         //Horizontal Movement
         _lane = InputCalculation.GetHorizontalInput(_lane);
-        //transform.position = Horizontal.GetPosition(_lane,_laneDistance);
+        transform.position = Horizontal.GetPosition(_lane, _laneDistance);
         _cc.center = _cc.center;
 
         //Forward Movement
